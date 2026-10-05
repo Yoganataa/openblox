@@ -1,0 +1,13 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+
+  "permissions": [
+    { "action": "roblox_*", "resource": "*", "effect": "deny" },
+    { "action": "roblox-studio_*", "resource": "*", "effect": "deny" },
+    { "action": "skill", "resource": "roblox-*", "effect": "deny" }
+  ]
+
+  // Merge these rules into your existing V2 config.
+  // Add "codemode": false to mcp.servers.roblox-studio.
+  // Optionally set "default_agent": "roblox-builder".
+}
